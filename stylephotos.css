@@ -1,0 +1,24 @@
+@import url("stylesCommuns.css");
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 150px;
+    float: left;
+    text-align: center;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 80%;
+    height: auto;
+  }
+  
+  div.description {
+    padding: 15px;
+    text-align: center;
+  }

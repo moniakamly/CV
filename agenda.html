@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Emploi du temps</title>
+    <link rel="stylesheet" href="styleAgenda.css">
+</head>
+
+<body class="backimage" id="agenda">
+    <div id="masection">
+        
+    
+                <header>
+                    <h1>Mon site personnel</h1>
+                    <h2>Agenda</h2>
+                </header>
+                <div id=wrapper>
+                <!-- Le menu de la navigation -->
+                <nav>
+                  <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="monCV.html" >Mon CV</a></li>
+                        <li><a href="agenda.html" id="encours">Agenda</a></li>
+                        <li><a href="photos.html">Photos</a></li>
+                  </ul>
+                </nav>
+    <table style="background-color:aliceblue" border="1px solid black">
+        <tr id=titretableau>
+            <th> Horaires </th>
+            <th>Lundi</th>
+            <th>Mardi</th>
+            <th>Mercredi</th>
+            <th>Jeudi</th>
+            <th>Vendredi</th>
+          </tr>
+          <tr>
+            <td>08:00 à 09:00</td>
+            <td class="prog" rowspan="2"> CM Programmation</td>
+            <td></td>
+            <td class="prog">TD Soutien Programmation</td>
+            <td class="math" rowspan="2">CM Mathématiques pour l'informatique</td>
+            <td class="prog">TP programmation</td>
+          </tr> 
+          <tr>
+            <td>09:00 à 10:00</td>
+            <td></td>
+            <td rowspan="2" class="web"> CM Introduction Web</td>
+            <td rowspan="2" class="math"> CM Mathématiques pour l'informatique</td>
+
+          </tr> 
+          <tr>
+            <td>10:00 à 11:00</td>
+            <td rowspan="2" class="algo">  CM Algorithmique</td>
+            <td rowspan="2" class="algo"> CM Algorithmique</td>
+            <td rowspan="2" class="réseaux">  CM Réseaux Informatiques</td>
+
+          </tr>
+          <tr>
+            <td>11:00 à 12:00</td>
+            <td></td>
+            <td> </td>
+          </tr>
+
+          <tr >
+            <td>12:00 à 13:00</td>
+            <td colspan="5" style="background-color:rgb(236, 236, 164)" border="1px solid black"> <center>Pause Déjeuner</center></td>
+          </tr>
+
+            <td>13:00 à 14:00</td>
+            <td rowspan="2" class="Glogiciel">TD génie logiciel</td>
+            <td rowspan="2" class="BD"> CM Bases de Données</td>
+            <td rowspan="2" class="systèmes">CM Systèmes d'exploitation des ordianateurs</td>
+            <td> </td>
+            <td></td>
+
+        </tr>
+          <td>14:00 à 15:00</td>
+          <td></td>
+          <td rowspan="2" class="algo">TD Algorithmique</td>
+
+      </tr>
+      <tr>
+          <td>15:00 à 16:00</td>
+          <td class="prog">CM programmation</td>
+          <td class="BD">TD Bases de Données</td>
+          <td></td>
+          <td class="réseaux">TP réseaux informatiques  </td>
+
+      </tr>
+      <tr>
+          <td>16:00 à 17:00</td>
+          <td></td>
+          <td></td>
+          <td class="algo"> TD Soutien Algorithmique</td>
+          <td>  </td>
+          <td> </td>
+
+    </tr>
+    </table>
+    <div >
+               <!--La légende-->
+        <table id="legende">
+            <tbody>
+              <tr>
+                <td></td>
+                <td>Algorithmique</td>
+                <td></td>
+                <td>Génie Logiciel</td>
+                <td></td>
+                <td>Génie Logiciel</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Anglais</td>
+                <td></td>
+                <td>Programmation</td>
+                <td></td>
+                <td>Systèmes</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Bases de données</td>
+                <td></td>
+                <td>Réseaux</td>
+                <td></td>
+                <td>Technologies du Web</td>
+              </tr>
+            </tbody>
+            </table>
+    </div>
+    
+</body>
+</html>

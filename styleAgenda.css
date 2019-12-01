@@ -1,0 +1,51 @@
+@import url("stylesCommuns.css");
+
+table {
+    margin: auto ;
+    text-align: center;
+}
+
+.algo {
+    background-color: aqua;
+}
+.prog {
+    background-color: rgb(171, 68, 140);
+}
+.web {
+    background-color: brown;
+}
+.réseaux {
+    background-color: blueviolet;
+}
+.Glogiciel {
+    background-color: red;
+}
+.BD {
+    background-color: palevioletred;
+}
+.systèmes {
+    background-color: burlywood;
+}
+.math {
+    background-color: rgb(178, 155, 125);
+}
+
+#titretableau {
+    background-color: rgb(24, 98, 216);
+    color: white;
+}
+
+#legende {
+    float: left;
+    padding: 20px;
+    text-align: left;
+}
+
+.carre {
+    width:10px;
+    height:10px;
+    background:blue;
+    margin:10px auto;
+   }
+
+

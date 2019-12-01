@@ -1,0 +1,43 @@
+@import url("stylesCommuns.css");
+
+
+section h2 {
+    box-shadow: 10px 5px 5px;
+    margin-bottom: 2px;
+    position: relative;
+    right:20px;
+
+}
+
+#imagecv {
+    display: block;
+    text-align: left;
+    width: 15%;
+    float: right;
+    padding: 100px;
+}
+
+
+.masection {
+    block-size: 800px;
+    padding-block: 100px;
+    position: relative;
+    margin:150px auto 0;
+    left:50px;
+}
+
+.backimage {
+    background-image: url("images/tec7.jpeg");
+}
+
+dt {
+    font-weight: bold;
+    display: inline;
+}
+
+dl div {
+    float: right;
+    padding-block: 100px;
+    position: relative;
+    right: 60px;
+}
